@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooking.Data", "Cooking.Data\Cooking.Data.csproj", "{D9F160A5-1438-4ED4-B56D-58F8A20D2C54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooking.Models", "Cooking.Models\Cooking.Models.csproj", "{BAC1E0BB-D270-4BAB-82D4-6C649CFB8398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooking.Web", "Cooking.Web\Cooking.Web.csproj", "{4F7A8AEE-5416-4151-A0CF-1C43C9A00F4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooking.Common", "Cooking.Common\Cooking.Common.csproj", "{CCF96638-B176-4247-87F4-C2AAF2100A37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External Libraries", "External Libraries", "{9C541B73-A8AC-479F-A97C-1048876CF67E}"
+	ProjectSection(SolutionItems) = preProject
+		External Libraries\Kendo.Mvc.dll = External Libraries\Kendo.Mvc.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9F160A5-1438-4ED4-B56D-58F8A20D2C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F160A5-1438-4ED4-B56D-58F8A20D2C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F160A5-1438-4ED4-B56D-58F8A20D2C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F160A5-1438-4ED4-B56D-58F8A20D2C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC1E0BB-D270-4BAB-82D4-6C649CFB8398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC1E0BB-D270-4BAB-82D4-6C649CFB8398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC1E0BB-D270-4BAB-82D4-6C649CFB8398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC1E0BB-D270-4BAB-82D4-6C649CFB8398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F7A8AEE-5416-4151-A0CF-1C43C9A00F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7A8AEE-5416-4151-A0CF-1C43C9A00F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7A8AEE-5416-4151-A0CF-1C43C9A00F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7A8AEE-5416-4151-A0CF-1C43C9A00F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF96638-B176-4247-87F4-C2AAF2100A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF96638-B176-4247-87F4-C2AAF2100A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF96638-B176-4247-87F4-C2AAF2100A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF96638-B176-4247-87F4-C2AAF2100A37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
